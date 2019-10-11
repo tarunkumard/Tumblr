@@ -52,7 +52,7 @@ WebUI.click(findTestObject('Page_Gmail/span_Next'))
 
 WebUI.delay(5)
 
-WebUI.setEncryptedText(findTestObject('Page_Gmail/input_Too many failed attempts_password'), 'RNTG402403')
+WebUI.setEncryptedText(findTestObject('Page_Gmail/input_Too many failed attempts_password'), 'yJrvxinPHlsy4zxffR0FqQ==')
 
 WebUI.delay(35)
 
