@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>RSS</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>3a20b35f-a8cf-4811-a49a-73d702da6b90</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>https%3A%2F%2Fcosplayparadize.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Fcosplay-geek-girls.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Fcosplayonfire.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Flelou1414.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Fwww.pinterest.com%2Fcosmeticsurgery0096%2Fcosmetic-surgery.rss</data>
+   <data>https%3A%2F%2Fwww.pinterest.com%2Frebeecasongko%2Fmakeup.rss</data>
+   <data>https%3A%2F%2Fwww.pinterest.com%2FGirlterestMag%2Fmakeup-inspiration-brands.rss</data>
+   <data>https%3A%2F%2Fwakaba-chan.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Fmarmaladica.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Ffandom.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Fsalamispots.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Flimach-an.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Fdudenukem.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Fnixon-by-night.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Fstarwhale37.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Fpumpkin-d3m0n.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Faimasup.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Fzillychu.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Fmoringmark.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2F80sretroelectro.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Fsburbox.tumblr.com%2Frss</data>
+   <data>https%3A%2F%2Fwww.pinterest.com%2Fdomenicotrezzin%2Fanime-manga-arts.rss</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>RSS</name>
+      <size>22</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

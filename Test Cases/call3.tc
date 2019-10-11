@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>call3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af682561-c8e2-4b80-bf2b-b379a8d3a852</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>23376f69-90a4-4015-ac05-885bbd6d3354</id>
+      <masked>false</masked>
+      <name>testcaseRSS</name>
+   </variable>
+</TestCaseEntity>

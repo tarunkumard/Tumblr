@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tumblrrss</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>315f4df1-02e3-4c4c-8962-f6b9a2e356f4</testCaseGuid>
+<<<<<<< HEAD
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7f4d79f9-1a3f-4adc-93db-1cf62d0a3219</id>
+      <masked>false</masked>
+      <name>testcaseRSS</name>
+   </variable>
+=======
+>>>>>>> branch 'master' of https://github.com/tarunkumard/YT.git
+</TestCaseEntity>
