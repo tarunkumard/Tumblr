@@ -30,114 +30,81 @@ import static org.junit.Assert.*
 import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.testdata.InternalData as InternalData
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('call1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('call2'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.google.com/gmail/about/#')
+WebUI.setText(findTestObject('Page_Create your own - IFTTT/textarea_httppinterestcomjanewfeedrss'), 'https://www.pinterest.com/Chicbetter/tattoos.rss',
+	FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(10)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Gmail - Free Storage and Email from Google/a_Sign in'))
+WebUI.click(findTestObject('Page_Create your own - IFTTT/input_visit the help page_btn btn-on-color btn-md btn-create'),
+	FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Page_Create your own - IFTTT/span_'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.switchToWindowTitle('Gmail')
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/input_Step3of 6_search'), 'pin',
+	FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_Gmail/input_to continue to Gmail_identifier'), 'verda03c34carol@gmail.com')
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Gmail/span_Next'))
+'Add code here for click'
+WebUI.click(findTestObject('pinterest/Page_Create your own - IFTTT/img_1'))
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setEncryptedText(findTestObject('Page_Gmail/input_Too many failed attempts_password'), 'lhdridv7BPU/1M0hXnc6TA==')
+WebUI.click(findTestObject('Page_Create your own - IFTTT/span_This Action'))
 
-WebUI.delay(35)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.navigateToUrl('https://ifttt.com/login?wp_=1')
+WebUI.click(findTestObject('pinterest/Page_Create your own - IFTTT/span_This Action will add a new Pin to one of your boards'))
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Sign in to your IFTTT account - IFTTT/a_Continue with Google or Facebook'))
+WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Here Is Best'), 'Here Is Best Flawless Women\'s Painless Hair Remover')
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Sign in to your IFTTT account - IFTTT/a_Continue with Google'))
+WebUI.sendKeys(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Add a description_fieldsnote'),
+	Keys.chord(Keys.CONTROL, 'a'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
-for (def index : (0..5)) {
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_My services - IFTTT/div_Search_profile-avatar-container'))
+WebUI.sendKeys(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Add a description_fieldsnote'),
+	Keys.chord(Keys.BACK_SPACE), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_My services - IFTTT/a_Create'))
+WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Add a description_fieldsnote'),
+	'Here Is Best Flawless Women\'s Painless Hair Remover')
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Create your own - IFTTT/a_This'))
+WebUI.sendKeys(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Source URL_fieldslink'),
+	Keys.chord(Keys.CONTROL, 'a'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_Create your own - IFTTT/input_Step1of 6_search'), 'rss')
+WebUI.sendKeys(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Source URL_fieldslink'),
+	Keys.chord(Keys.BACK_SPACE), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Create your own - IFTTT/img'))
+WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Source URL_fieldslink'),
+	'https://amzn.to/33hVwK0')
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Create your own - IFTTT/span_This Trigger fires every time a new item is added to the feed you specify'))
+WebUI.click(findTestObject('pinterest/Page_Create your own - IFTTT/input_Add ingredie'))
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_Create your own - IFTTT/textarea_httppinterestcomjanewfeedrss'), testcaseRSS)
+WebUI.click(findTestObject('pinterest/Page_Create your own - IFTTT/input_works with_btn btn-primary btn-lg'))
 
-WebUI.delay(5)
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Create your own - IFTTT/input_visit the help page_btn btn-on-color btn-md btn-create'))
+WebUI.closeBrowser()
 
-WebUI.click(findTestObject('Page_Create your own - IFTTT/span_'))
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Page_Create your own - IFTTT/input_Step3of 6_search'), 'tum')
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Page_Create your own - IFTTT/img_1'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/span_This Action'))
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Page_Create your own - IFTTT/textarea_Photo caption_fieldscaption'), '')
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_a hrefhttps'), '<a href="https://amzn.to/2CH5dsg">Buy Best Women\'s Intimates</a>')
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Page_Create your own - IFTTT/textarea_Tags_fieldstags'), '')
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_foodcakedessertp'), 'food,cake,dessert,pastries,intersectional feminism,feminist,my hero academia,all might,lingerie,babe,sexy,babes,kakagai,halloween,horror,gold,gold flakes,nutrition,chocolate,cute,fitness,athletic,summer,fruit by the foot,fruit snacks,hot,bikini,fashion')
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/input_Publish_btn btn-on-color btn-md btn-create'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/input_works with_btn btn-primary btn-lg'))
-
-WebUI.delay(5)
-
-
-}

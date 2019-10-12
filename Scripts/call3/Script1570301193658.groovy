@@ -43,6 +43,8 @@ import com.kms.katalon.core.testdata.InternalData as InternalData
         WebUI.click(findTestObject('Page_Create your own - IFTTT/span_'))
 
         WebUI.delay(5)
+		
+		'Above for Pinterest as well'
 
         WebUI.setText(findTestObject('Page_Create your own - IFTTT/input_Step3of 6_search'), 'tum')
 

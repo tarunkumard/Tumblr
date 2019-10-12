@@ -8,8 +8,6 @@
    <dataFileGUID>3a20b35f-a8cf-4811-a49a-73d702da6b90</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>https%3A%2F%2Fcosplayparadize.tumblr.com%2Frss</data>
-   <data>https%3A%2F%2Fcosplay-geek-girls.tumblr.com%2Frss</data>
    <data>https%3A%2F%2Fcosplayonfire.tumblr.com%2Frss</data>
    <data>https%3A%2F%2Flelou1414.tumblr.com%2Frss</data>
    <data>https%3A%2F%2Fwww.pinterest.com%2Fcosmeticsurgery0096%2Fcosmetic-surgery.rss</data>
@@ -33,7 +31,7 @@
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>RSS</name>
-      <size>22</size>
+      <size>20</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
