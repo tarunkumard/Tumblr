@@ -29,44 +29,28 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static org.junit.Assert.*
 import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.testdata.InternalData as InternalData
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('')
-
+WebUI.delay(10)
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://www.google.com/gmail/about/#')
-
+WebUI.navigateToUrl('https://ifttt.com/login?wp_=1')
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page_Gmail - Free Storage and Email from Google/a_Sign in'))
+WebUI.setText(findTestObject('Object Repository/Page_Sign in to your IFTTT account - IFTTT/input_Sign in_userusername'),
+	'hernandez01y25founta@gmail.com')
+WebUI.delay(10)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to your IFTTT account - IFTTT/input_Sign in_userpassword'),
+	'YS6c9Dql4+YpAaWAUFDAjw==')
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Object Repository/Page_Sign in to your IFTTT account - IFTTT/input_Forgot your password_commit'))
 
 WebUI.delay(5)
 
-WebUI.switchToWindowTitle('Gmail')
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Page_Gmail/input_to continue to Gmail_identifier'), 'amy65i60north@gmail.com')
-
-WebUI.click(findTestObject('Page_Gmail/span_Next'))
-
-WebUI.delay(5)
-
-WebUI.setEncryptedText(findTestObject('Page_Gmail/input_Too many failed attempts_password'), 'yJrvxinPHlsy4zxffR0FqQ==')
-
-WebUI.delay(35)
-
-WebUI.navigateToUrl('https://ifttt.com/login?wp_=1')
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Page_Sign in to your IFTTT account - IFTTT/a_Continue with Google or Facebook'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Page_Sign in to your IFTTT account - IFTTT/a_Continue with Google'))
-
-WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_My services - IFTTT/div_Search_profile-avatar-container'))
 
@@ -75,4 +59,3 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Page_My services - IFTTT/a_Create'))
 
 WebUI.delay(5)
-

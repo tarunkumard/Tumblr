@@ -60,7 +60,7 @@ WebUI.click(findTestObject('pinterest/Page_Create your own - IFTTT/span_This Act
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Here Is Best'), 'Here Is Best Flawless Women\'s Painless Hair Remover', 
+WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Here Is Best'), 'DIY Zipper sweatshirts', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
@@ -76,7 +76,8 @@ WebUI.sendKeys(findTestObject('Object Repository/pinterest/Page_Create your own 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Add a description_fieldsnote'), 
-    'Here Is Best Flawless Women\'s Painless Hair Remover', FailureHandling.CONTINUE_ON_FAILURE)
+    'DIY Zipper sweatshirts #diy #crafts #teencrafts #projects #diycrafts #diyprojects #fundiys #funprojects #diyideas #craftprojects #diyprojectidea #teencraftidea #wedding #bridal #AcrylicSummerNails #Beauty #NailArt #SummerNailsArt #uñas #uñasdecoradas #uñaslindas #uñasdegel #uñashermosas #manicura #manos #fuego #uñasfuego #cazzu #women cardigan winter cardigan #women cardigan winter cardigan cardigan #cardigans for women', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -91,7 +92,7 @@ WebUI.sendKeys(findTestObject('Object Repository/pinterest/Page_Create your own 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Source URL_fieldslink'), 
-    'https://amzn.to/33hVwK0', FailureHandling.CONTINUE_ON_FAILURE)
+    'https://amzn.to/2QreKJy', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -117,3 +118,4 @@ WebUI.click(findTestObject('Object Repository/PinterestEnd/Page_If New feed/a_Cr
 WebUI.delay(7)
 
 WebUI.callTestCase(findTestCase('call2'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
