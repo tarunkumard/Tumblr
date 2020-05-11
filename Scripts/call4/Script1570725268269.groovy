@@ -60,7 +60,7 @@ WebUI.click(findTestObject('pinterest/Page_Create your own - IFTTT/span_This Act
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Here Is Best'), 'DIY Zipper sweatshirts', 
+WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Here Is Best'), 'diy mascarilla', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
@@ -76,7 +76,7 @@ WebUI.sendKeys(findTestObject('Object Repository/pinterest/Page_Create your own 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Add a description_fieldsnote'), 
-    'DIY Zipper sweatshirts #diy #crafts #teencrafts #projects #diycrafts #diyprojects #fundiys #funprojects #diyideas #craftprojects #diyprojectidea #teencraftidea #wedding #bridal #AcrylicSummerNails #Beauty #NailArt #SummerNailsArt #uñas #uñasdecoradas #uñaslindas #uñasdegel #uñashermosas #manicura #manos #fuego #uñasfuego #cazzu #women cardigan winter cardigan #women cardigan winter cardigan cardigan #cardigans for women', 
+    'diy mascarilla  #diy #crafts #teencrafts #projects #diycrafts #diyprojects #fundiys #funprojects #diyideas #craftprojects Throws, pillows, candles, baskets are great items for winter decor.', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
@@ -92,7 +92,7 @@ WebUI.sendKeys(findTestObject('Object Repository/pinterest/Page_Create your own 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Source URL_fieldslink'), 
-    'https://amzn.to/2QreKJy', FailureHandling.CONTINUE_ON_FAILURE)
+    'http://kalikeshto.com/', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 

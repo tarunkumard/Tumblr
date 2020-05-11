@@ -30,77 +30,69 @@ import static org.junit.Assert.*
 import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.testdata.InternalData as InternalData
 
-    
-        
+WebUI.setText(findTestObject('Page_Create your own - IFTTT/textarea_httppinterestcomjanewfeedrss'), testcaseRSS)
 
-        WebUI.setText(findTestObject('Page_Create your own - IFTTT/textarea_httppinterestcomjanewfeedrss'), testcaseRSS)
+WebUI.delay(5)
 
-        WebUI.delay(5)
-		
+WebUI.click(findTestObject('Page_Create your own - IFTTT/input_visit the help page_btn btn-on-color btn-md btn-create'))
 
-        WebUI.click(findTestObject('Page_Create your own - IFTTT/input_visit the help page_btn btn-on-color btn-md btn-create'))
+WebUI.click(findTestObject('Page_Create your own - IFTTT/span_'))
 
-        WebUI.click(findTestObject('Page_Create your own - IFTTT/span_'))
+WebUI.delay(5)
 
-        WebUI.delay(5)
-		
-		'Above for Pinterest as well'
+'Above for Pinterest as well'
+WebUI.setText(findTestObject('Page_Create your own - IFTTT/input_Step3of 6_search'), 'tum')
 
-        WebUI.setText(findTestObject('Page_Create your own - IFTTT/input_Step3of 6_search'), 'tum')
+WebUI.delay(5)
 
-        WebUI.delay(5)
+WebUI.click(findTestObject('Page_Create your own - IFTTT/img_1'))
 
-        WebUI.click(findTestObject('Page_Create your own - IFTTT/img_1'))
+WebUI.delay(5)
 
-        WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/span_This Action'))
 
-        WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/span_This Action'))
+WebUI.delay(5)
 
-        WebUI.delay(5)
+WebUI.setText(findTestObject('Page_Create your own - IFTTT/textarea_Photo caption_fieldscaption'), '')
 
-        WebUI.setText(findTestObject('Page_Create your own - IFTTT/textarea_Photo caption_fieldscaption'), '')
+WebUI.delay(5)
 
-        WebUI.delay(5)
-		
-		WebUI.sendKeys(findTestObject('Page_Create your own - IFTTT/textarea_Photo caption_fieldscaption'), Keys.chord(Keys.CONTROL,'a'))
-		
-			WebUI.delay(5)
-		
-			WebUI.sendKeys(findTestObject('Page_Create your own - IFTTT/textarea_Photo caption_fieldscaption'), Keys.chord(Keys.BACK_SPACE))
-		
+WebUI.sendKeys(findTestObject('Page_Create your own - IFTTT/textarea_Photo caption_fieldscaption'), Keys.chord(Keys.CONTROL, 
+        'a'))
 
-        WebUI.setText(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_a hrefhttps'), '<a href="https://amzn.to/335D0ER">Here is Best Hair Dryer & Volumizer Hot Air Brush</a> ')
+WebUI.delay(5)
 
-        WebUI.delay(5)
+WebUI.sendKeys(findTestObject('Page_Create your own - IFTTT/textarea_Photo caption_fieldscaption'), Keys.chord(Keys.BACK_SPACE))
 
-        WebUI.setText(findTestObject('Page_Create your own - IFTTT/textarea_Tags_fieldstags'), '')
+WebUI.setText(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_a hrefhttps'), '<a href="https://www.youtube.com/watch?v=x0Ckdzfr8I0">Pet Groomer’s Struggle For Weight Loss left Her Honey-Moon </a> ')
 
-        WebUI.delay(5)
-		
-		WebUI.sendKeys(findTestObject('Page_Create your own - IFTTT/textarea_Tags_fieldstags'), Keys.chord(Keys.CONTROL, 'a'))
-		
-			WebUI.delay(5)
-		
-			WebUI.sendKeys(findTestObject('Page_Create your own - IFTTT/textarea_Tags_fieldstags'), Keys.chord(Keys.BACK_SPACE))
+WebUI.delay(5)
 
-        WebUI.setText(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_foodcakedessertp'), 'food,cake,dessert,pastries,intersectional feminism,feminist,my hero academia,all might,lingerie,babe,sexy,babes,kakagai,halloween,horror,gold,gold flakes,nutrition,chocolate,cute,fitness,athletic,summer,fruit by the foot,fruit snacks,hot,bikini,fashion')
+WebUI.setText(findTestObject('Page_Create your own - IFTTT/textarea_Tags_fieldstags'), '')
 
-        WebUI.delay(5)
+WebUI.delay(5)
 
-        WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/input_Publish_btn btn-on-color btn-md btn-create'))
+WebUI.sendKeys(findTestObject('Page_Create your own - IFTTT/textarea_Tags_fieldstags'), Keys.chord(Keys.CONTROL, 'a'))
 
-        WebUI.delay(5)
+WebUI.delay(5)
 
-        WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/input_works with_btn btn-primary btn-lg'))
+WebUI.sendKeys(findTestObject('Page_Create your own - IFTTT/textarea_Tags_fieldstags'), Keys.chord(Keys.BACK_SPACE))
 
-        WebUI.delay(5)
+WebUI.setText(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_foodcakedessertp'), 'food,cake,dessert,pastries,intersectional feminism,feminist,my hero academia,all might,lingerie,babe,sexy,babes,kakagai,halloween,horror,gold,gold flakes,nutrition,chocolate,cute,fitness,athletic,summer,fruit by the foot,fruit snacks,hot,bikini,fashion')
 
-        WebUI.navigateToUrl('https://ifttt.com/create')
+WebUI.delay(5)
 
-        WebUI.delay(15)
-		
-		WebUI.callTestCase(findTestCase('call2'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-		
-    
+WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/input_Publish_btn btn-on-color btn-md btn-create'))
 
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/input_works with_btn btn-primary btn-lg'))
+
+WebUI.delay(5)
+
+WebUI.navigateToUrl('https://ifttt.com/create')
+
+WebUI.delay(15)
+
+WebUI.callTestCase(findTestCase('call2'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

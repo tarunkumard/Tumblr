@@ -33,24 +33,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('')
+
 WebUI.delay(10)
+
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://ifttt.com/login?wp_=1')
+
 WebUI.delay(10)
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign in to your IFTTT account - IFTTT/input_Sign in_userusername'),
-	'hernandez01y25founta@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Sign in to your IFTTT account - IFTTT/input_Sign in_userusername'), 
+    'harshab@dogfashion.org')
+
 WebUI.delay(10)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to your IFTTT account - IFTTT/input_Sign in_userpassword'),
-	'YS6c9Dql4+YpAaWAUFDAjw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to your IFTTT account - IFTTT/input_Sign in_userpassword'), 
+    'NWb4hwkuz3GVfPttLabpAw==')
+
 WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Page_Sign in to your IFTTT account - IFTTT/input_Forgot your password_commit'))
 
 WebUI.delay(5)
-
 
 WebUI.click(findTestObject('Page_My services - IFTTT/div_Search_profile-avatar-container'))
 
@@ -59,3 +63,4 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Page_My services - IFTTT/a_Create'))
 
 WebUI.delay(5)
+
