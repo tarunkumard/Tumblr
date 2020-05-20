@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Step1of 6_search</name>
+   <name>input_Add ingredient_btn btn-on-color btn-m_c474a4</name>
    <tag></tag>
-   <elementGuidId>86eab07a-cef0-4577-bd1f-51d5069de287</elementGuidId>
+   <elementGuidId>7a308458-d474-433a-be9e-3c97d9639619</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='search']</value>
+         <value>//input[@value='Create action']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,71 +22,64 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>search</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ifttt-next-search-input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Search services</value>
+      <value>btn btn-on-color btn-md btn-create</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>data-track-ifttt-next-event</name>
       <type>Main</type>
-      <value>1024</value>
+      <value>click</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>data-track-data</name>
       <type>Main</type>
-      <value>off</value>
+      <value>{&quot;object_type&quot;:&quot;diy_that_created&quot;,&quot;object_id&quot;:&quot;action&quot;,&quot;location_type&quot;:&quot;diy_composer&quot;}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Create action</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;search&quot;)</value>
+      <value>id(&quot;composer&quot;)/div[@class=&quot;diy-composer&quot;]/div[@class=&quot;current-step&quot;]/div[1]/div[@class=&quot;trigger-fields&quot;]/form[@class=&quot;form&quot;]/div[@class=&quot;trigger-fields-container&quot;]/input[@class=&quot;btn btn-on-color btn-md btn-create&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='search']</value>
+      <value>//input[@value='Create action']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='composer']/div/div/div/div[2]/div/input</value>
+      <value>//div[@id='composer']/div/div/div/div[2]/form/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
+      <value>//form/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

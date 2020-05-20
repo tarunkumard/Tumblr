@@ -60,7 +60,7 @@ WebUI.click(findTestObject('pinterest/Page_Create your own - IFTTT/span_This Act
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Here Is Best'), 'diy mascarilla', 
+WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Here Is Best'), 'makeup-for-women-over-50', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
@@ -76,7 +76,7 @@ WebUI.sendKeys(findTestObject('Object Repository/pinterest/Page_Create your own 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Add a description_fieldsnote'), 
-    'diy mascarilla  #diy #crafts #teencrafts #projects #diycrafts #diyprojects #fundiys #funprojects #diyideas #craftprojects Throws, pillows, candles, baskets are great items for winter decor.', 
+    'makeup-for-women-over-50  #diy #crafts #teencrafts #projects #diycrafts #diyprojects #fundiys #funprojects #diyideas #craftprojects Throws, pillows, candles, baskets are great items for winter decor.', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
@@ -92,7 +92,7 @@ WebUI.sendKeys(findTestObject('Object Repository/pinterest/Page_Create your own 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Source URL_fieldslink'), 
-    'http://kalikeshto.com/', FailureHandling.CONTINUE_ON_FAILURE)
+    'https://www.youtube.com/watch?v=x0Ckdzfr8I0', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 

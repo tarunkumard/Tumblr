@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>iftt-twitter-new</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dace97b9-694d-437d-8f95-e0348c5a8f7d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33c1cbe1-9639-480a-9835-d889310e7c68</id>
+      <masked>false</masked>
+      <name>testcaseRSS</name>
+   </variable>
+</TestCaseEntity>

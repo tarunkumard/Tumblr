@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_1</name>
+   <name>textarea_Feed URL_fieldsfeed_url</name>
    <tag></tag>
-   <elementGuidId>5272afe0-3d7c-4c22-be06-44dae81cb3d3</elementGuidId>
+   <elementGuidId>0cd86dbd-1171-4aef-9651-462406be3ba4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='composer']/div/div/div/div[2]/ul/li/a/div/img</value>
+         <value>//textarea[@name='fields[feed_url]']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,55 +17,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>name</name>
       <type>Main</type>
-      <value>https://assets.ifttt.com/images/channels/2/icons/monochrome_large.png</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>alt</name>
-      <type>Main</type>
-      <value>Twitter</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Twitter</value>
+      <value>fields[feed_url]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;composer&quot;)/div[@class=&quot;diy-composer&quot;]/div[@class=&quot;current-step&quot;]/div[1]/div[@class=&quot;service-selector delayed0FadeIn200-enter-done&quot;]/ul[@class=&quot;service-grid&quot;]/li[@class=&quot;service-tile&quot;]/a[1]/div[@class=&quot;service-content&quot;]/img[1]</value>
+      <value>id(&quot;composer&quot;)/div[@class=&quot;diy-composer&quot;]/div[@class=&quot;current-step&quot;]/div[1]/div[@class=&quot;trigger-fields&quot;]/form[@class=&quot;form&quot;]/div[@class=&quot;trigger-fields-container&quot;]/ul[@class=&quot;fields&quot;]/li[@class=&quot;field&quot;]/span[@class=&quot;input&quot;]/div[1]/div[@class=&quot;ingredients-text-field ingredients-text-field-text ingredients-text-field-on-color&quot;]/div[@class=&quot;growing-text-area&quot;]/textarea[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='composer']/div/div/div/div[2]/ul/li/a/div/img</value>
+      <value>//textarea[@name='fields[feed_url]']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//img[@alt='Twitter']</value>
+      <value>//div[@id='composer']/div/div/div/div[2]/form/div/ul/li/span[2]/div/div/div/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//img</value>
+      <value>//textarea</value>
    </webElementXpaths>
 </WebElementEntity>

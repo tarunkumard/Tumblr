@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Step1of 6_search</name>
+   <name>input_Username_username</name>
    <tag></tag>
-   <elementGuidId>86eab07a-cef0-4577-bd1f-51d5069de287</elementGuidId>
+   <elementGuidId>bd3df664-03b2-461f-8977-baefce4ff9f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='search']</value>
+         <value>//input[@id='username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,14 +24,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>search</value>
+      <value>username</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>name</name>
       <type>Main</type>
-      <value>ifttt-next-search-input</value>
+      <value>username</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,52 +41,45 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>size</name>
       <type>Main</type>
-      <value>Search services</value>
+      <value>30</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>1024</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
+      <value>50</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;search&quot;)</value>
+      <value>id(&quot;username&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='search']</value>
+      <value>//input[@id='username']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='composer']/div/div/div/div[2]/div/input</value>
+      <value>//form[@id='login']/fieldset/table/tbody/tr[3]/td/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
+      <value>//td/input</value>
    </webElementXpaths>
 </WebElementEntity>

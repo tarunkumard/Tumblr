@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Step1of 6_search</name>
+   <name>span_This Trigger fires every time a new it_9f4771</name>
    <tag></tag>
-   <elementGuidId>86eab07a-cef0-4577-bd1f-51d5069de287</elementGuidId>
+   <elementGuidId>6112cda9-fc96-403f-92c3-d5333f289cf0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='search']</value>
+         <value>//div[@id='composer']/div/div/div/div[2]/ul/li/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,76 +17,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>search</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ifttt-next-search-input</value>
+      <value>description</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>text</name>
       <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Search services</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>1024</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
+      <value>This Trigger fires every time a new item is added to the feed you specify.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;search&quot;)</value>
+      <value>id(&quot;composer&quot;)/div[@class=&quot;diy-composer&quot;]/div[@class=&quot;current-step&quot;]/div[1]/div[@class=&quot;tanda-selector&quot;]/ul[1]/li[1]/span[@class=&quot;description&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@id='search']</value>
+      <value>//div[@id='composer']/div/div/div/div[2]/ul/li/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='composer']/div/div/div/div[2]/div/input</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New feed item'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New feed item matches'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='This Trigger fires every time a new item is added to the feed you specify.']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
+      <value>//li/span[2]</value>
    </webElementXpaths>
 </WebElementEntity>

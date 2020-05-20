@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_This</name>
+   <name>span_This Action will post a new tweet to y_84febc</name>
    <tag></tag>
-   <elementGuidId>c312a010-fbaf-486b-870e-52c9db534eaf</elementGuidId>
+   <elementGuidId>3265d54e-c1cd-411b-87b4-ed57f3045673</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='composer']/div/div/div/div/a</value>
+         <value>//div[@id='composer']/div/div/div/div[2]/ul/li[2]/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,69 +17,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>this-that</value>
+      <value>description</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>✚This</value>
+      <value>This Action will post a new tweet to your Twitter account with a linked pic.twitter.com image. NOTE: Please adhere to Twitter’s Rules and Terms of Service. </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;composer&quot;)/div[@class=&quot;diy-composer&quot;]/div[@class=&quot;current-step&quot;]/div[1]/div[@class=&quot;if-this-then-that&quot;]/a[@class=&quot;this-that&quot;]</value>
+      <value>id(&quot;composer&quot;)/div[@class=&quot;diy-composer&quot;]/div[@class=&quot;current-step&quot;]/div[1]/div[@class=&quot;tanda-selector&quot;]/ul[1]/li[2]/span[@class=&quot;description&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='composer']/div/div/div/div/a</value>
+      <value>//div[@id='composer']/div/div/div/div[2]/ul/li[2]/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create your own'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Post a tweet with image'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='This']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Post a tweet'])[1]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Update profile picture'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Update bio'])[1]/preceding::span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='This Action will post a new tweet to your Twitter account with a linked pic.twitter.com image. NOTE: Please adhere to Twitter’s Rules and Terms of Service.']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/a</value>
+      <value>//li[2]/span[2]</value>
    </webElementXpaths>
 </WebElementEntity>

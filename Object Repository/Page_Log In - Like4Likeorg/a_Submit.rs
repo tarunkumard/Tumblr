@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_This</name>
+   <name>a_Submit</name>
    <tag></tag>
-   <elementGuidId>c312a010-fbaf-486b-870e-52c9db534eaf</elementGuidId>
+   <elementGuidId>0e987574-00a9-4a08-92b3-11c73ce4061c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='composer']/div/div/div/div/a</value>
+         <value>//a[@onclick='LoginFunctions();']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,66 +20,94 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>this-that</value>
+      <value>form-button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>LoginFunctions();</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>✚This</value>
+      <value>Submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;composer&quot;)/div[@class=&quot;diy-composer&quot;]/div[@class=&quot;current-step&quot;]/div[1]/div[@class=&quot;if-this-then-that&quot;]/a[@class=&quot;this-that&quot;]</value>
+      <value>id(&quot;login&quot;)/fieldset[@class=&quot;rounded-corners&quot;]/table[@class=&quot;width-100p a-center&quot;]/tbody[1]/tr[8]/td[1]/a[@class=&quot;form-button&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick='LoginFunctions();']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='composer']/div/div/div/div/a</value>
+      <value>//form[@id='login']/fieldset/table/tbody/tr[8]/td/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Submit')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create your own'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='This']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username:'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[3]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lost Password'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Submit']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/a</value>
+      <value>//td/a</value>
    </webElementXpaths>
 </WebElementEntity>

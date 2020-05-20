@@ -8,27 +8,12 @@
    <dataFileGUID>3a20b35f-a8cf-4811-a49a-73d702da6b90</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>https%3A%2F%2Fwww.pinterest.com%2Fallanacabalp%2Ftapaboca.rss</data>
-   <data>https%3A%2F%2Fwww.pinterest.com%2Fbegobodas%2Fmascarillas.rss</data>
-   <data>https%3A%2F%2Fwww.pinterest.com%2Fcarmenc4742%2Fmascarillas.rss</data>
-   <data>https%3A%2F%2Fwww.pinterest.com%2Fceciliadevries%2Fpatrones-de-costura.rss</data>
-   <data>https%3A%2F%2Fwww.pinterest.com%2Fcerezovasquez%2Fbaberos-para-mayores.rss</data>
-   <data>https%3A%2F%2Fwww.pinterest.com%2Fcuronazario%2Fmascarilla-para-boca-nariz.rss</data>
-   <data>https%3A%2F%2Fwww.pinterest.com%2Ferikaserranop%2Funiformes-moldes-de-ropa-diy.rss</data>
-   <data>https%3A%2F%2Fwww.pinterest.com%2Fgarcia9117%2Fmascarilla.rss</data>
-   <data>https%3A%2F%2Far.pinterest.com%2Falejandraalmaisrael%2Fbarbijos.rss</data>
-   <data>https%3A%2F%2Far.pinterest.com%2Farandanolasco%2Fvarbijo.rss</data>
-   <data>https%3A%2F%2Fbr.pinterest.com%2Falesandovabar%2Fmascarillas.rss</data>
-   <data>https%3A%2F%2Fbr.pinterest.com%2Faltahirujo%2Fmascarilla.rss</data>
-   <data>https%3A%2F%2Fwww.pinterest.com%2Fluisabarral%2Fmascarillas.rss</data>
-   <data>https%3A%2F%2Fwww.pinterest.com%2Fmarbelitorres%2Fmascara-crochet.rss</data>
-   <data>https%3A%2F%2Fwww.pinterest.com%2Fmcvergararuiz%2Fmascarillas.rss</data>
-   <data>https%3A%2F%2Fwww.pinterest.com%2Fmdfontdg%2Fmascaretes.rss</data>
-   <data>https%3A%2F%2Fwww.pinterest.com%2Fpepafdez%2Fmascarillas.rss</data>
+   <data>https%3A%2F%2Fpowderdoom.tumblr.com%2Frss</data>
+   <data>null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>RSS</name>
-      <size>17</size>
+      <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
