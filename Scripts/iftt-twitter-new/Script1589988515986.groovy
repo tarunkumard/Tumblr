@@ -59,12 +59,12 @@ WebUI.setText(findTestObject('Object Repository/Page_Create your own - IFTTT/tex
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Page_Create your own - IFTTT/textarea_Photo caption_fieldscaption'), Keys.chord(Keys.CONTROL,
+WebUI.sendKeys(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_Tweet text_fieldstweet'), Keys.chord(Keys.CONTROL,
 	'a'))
 
 WebUI.delay(5)
 
-WebUI.sendKeys(findTestObject('Page_Create your own - IFTTT/textarea_Photo caption_fieldscaption'), Keys.chord(Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_Tweet text_fieldstweet'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_httpkalikeshtocom competition infl_178516'),
 	'http://kalikeshto.com/ #competition #influencer #influencermarketing #fridayfeeling #MondayMotivation #tbt #wcw\n#WinItWednesday  #Win #Giveaway #FreebieFriday #LoungingPretty',
@@ -84,6 +84,11 @@ WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_If New feed item from httpswwwpinteres_788210/div_Explore_profile-avatar-container'),
 	FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
+
+'Click Twitter Finish Button'
+WebUI.click(findTestObject('Page_Create your own - IFTTT/input_works with_btn btn-primary btn-lg (1)'))
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
