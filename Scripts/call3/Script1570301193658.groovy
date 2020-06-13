@@ -29,6 +29,9 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static org.junit.Assert.*
 import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.testdata.InternalData as InternalData
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.setText(findTestObject('Page_Create your own - IFTTT/textarea_httppinterestcomjanewfeedrss'), testcaseRSS)
 
@@ -36,7 +39,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Create your own - IFTTT/input_visit the help page_btn btn-on-color btn-md btn-create'))
 
-WebUI.click(findTestObject('Page_Create your own - IFTTT/span_'))
+WebUI.click(findTestObject('that/Page_Create your own - IFTTT/PlusThat'))
 
 WebUI.delay(5)
 
@@ -64,7 +67,7 @@ WebUI.delay(5)
 
 WebUI.sendKeys(findTestObject('Page_Create your own - IFTTT/textarea_Photo caption_fieldscaption'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_a hrefhttps'), '<a href="https://www.youtube.com/watch?v=x0Ckdzfr8I0">Pet Groomer’s Struggle For Weight Loss left Her Honey-Moon </a> ')
+WebUI.setText(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_a hrefhttps'), '<a href="https://www.youtube.com/watch?v=VY2yxLyDDgU">Cute Puppies Doing Funny Things 2020 </a> ')
 
 WebUI.delay(5)
 
@@ -82,11 +85,15 @@ WebUI.setText(findTestObject('Object Repository/Page_Create your own - IFTTT/tex
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/input_Publish_btn btn-on-color btn-md btn-create'))
+WebUI.click(findTestObject('Pin/Page_Create your own - IFTTT/comments'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/input_works with_btn btn-primary btn-lg'))
+WebUI.doubleClick(findTestObject('Pin/Page_Create your own - IFTTT/input_visit the help page_btn btn-on-color _6a1bb4'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Pin/Page_Create your own - IFTTT/input_works with_btn btn-primary btn-lg'))
 
 WebUI.delay(5)
 

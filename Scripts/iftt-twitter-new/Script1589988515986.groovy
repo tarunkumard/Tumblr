@@ -36,12 +36,13 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Create your own - IFTTT/input_visit the help page_btn btn-on-color btn-md btn-create'))
 
-WebUI.click(findTestObject('Page_Create your own - IFTTT/span_'))
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/that/Page_Create your own - IFTTT/span_'))
 
 WebUI.delay(5)
 
 'Above for Pinterest as well'
-
 WebUI.setText(findTestObject('Page_Create your own - IFTTT/input_Step1of 6_search'), 'twi', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
@@ -50,8 +51,8 @@ WebUI.click(findTestObject('Page_Create your own - IFTTT/img_1'), FailureHandlin
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/span_This Action will post a new tweet to y_84febc'),
-	FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/span_This Action will post a new tweet to y_84febc'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -59,31 +60,32 @@ WebUI.setText(findTestObject('Object Repository/Page_Create your own - IFTTT/tex
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_Tweet text_fieldstweet'), Keys.chord(Keys.CONTROL,
-	'a'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_Tweet text_fieldstweet'), Keys.chord(
+        Keys.CONTROL, 'a'))
 
 WebUI.delay(5)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_Tweet text_fieldstweet'), Keys.chord(Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_Tweet text_fieldstweet'), Keys.chord(
+        Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_httpkalikeshtocom competition infl_178516'),
-	'http://kalikeshto.com/ #competition #influencer #influencermarketing #fridayfeeling #MondayMotivation #tbt #wcw\n#WinItWednesday  #Win #Giveaway #FreebieFriday #LoungingPretty',
-	FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/input_Add ingredient_btn btn-on-color btn-m_c474a4'),
-	FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Page_Create your own - IFTTT/textarea_httpkalikeshtocom competition infl_178516'), 
+    'https://www.youtube.com/watch?v=VY2yxLyDDgU #competition #influencer #influencermarketing #fridayfeeling #MondayMotivation #tbt #wcw\r\n#WinItWednesday  #Win #Giveaway #FreebieFriday #LoungingPretty', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/input_Add ingredient_btn btn-on-color btn-m_c474a4'),
-	FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/input_Add ingredient_btn btn-on-color btn-m_c474a4'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_If New feed item from httpswwwpinteres_788210/div_Explore_profile-avatar-container'),
-	FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Create your own - IFTTT/input_Add ingredient_btn btn-on-color btn-m_c474a4'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_If New feed item from httpswwwpinteres_788210/div_Explore_profile-avatar-container'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -94,6 +96,15 @@ WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_If New feed item from httpswwwpinteres_788210/a_Create'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/PinterestEnd/Page_If New feed/a_Create'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(7)
+
+WebUI.navigateToUrl('https://ifttt.com/create')
+
+WebUI.delay(15)
 
 WebUI.callTestCase(findTestCase('call2'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

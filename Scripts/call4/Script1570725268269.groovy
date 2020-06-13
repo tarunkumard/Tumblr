@@ -29,6 +29,9 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static org.junit.Assert.*
 import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.testdata.InternalData as InternalData
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.setText(findTestObject('Page_Create your own - IFTTT/textarea_httppinterestcomjanewfeedrss'), testcaseRSS, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -37,7 +40,7 @@ WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.click(findTestObject('Page_Create your own - IFTTT/input_visit the help page_btn btn-on-color btn-md btn-create'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Create your own - IFTTT/span_'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('that/Page_Create your own - IFTTT/PlusThat'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -60,7 +63,7 @@ WebUI.click(findTestObject('pinterest/Page_Create your own - IFTTT/span_This Act
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Here Is Best'), 'makeup-for-women-over-50', 
+WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Here Is Best'), 'Cute Puppies Doing Funny Things 2020', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
@@ -76,7 +79,7 @@ WebUI.sendKeys(findTestObject('Object Repository/pinterest/Page_Create your own 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Add a description_fieldsnote'), 
-    'makeup-for-women-over-50  #diy #crafts #teencrafts #projects #diycrafts #diyprojects #fundiys #funprojects #diyideas #craftprojects Throws, pillows, candles, baskets are great items for winter decor.', 
+    'Cute Puppies Doing Funny Things 2020  #diy #crafts #teencrafts #projects #diycrafts #diyprojects #fundiys #funprojects #diyideas #craftprojects Throws, pillows, candles, baskets are great items for winter decor.', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
@@ -92,20 +95,34 @@ WebUI.sendKeys(findTestObject('Object Repository/pinterest/Page_Create your own 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Source URL_fieldslink'), 
-    'https://www.youtube.com/watch?v=x0Ckdzfr8I0', FailureHandling.CONTINUE_ON_FAILURE)
+    'https://www.youtube.com/watch?v=VY2yxLyDDgU', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('pinterest/Page_Create your own - IFTTT/input_Add ingredie'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Source URL_fieldslink'), 
+    Keys.chord(Keys.CONTROL, 'a'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('pinterest/Page_Create your own - IFTTT/input_works with_btn btn-primary btn-lg'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Source URL_fieldslink'), 
+    Keys.chord(Keys.BACK_SPACE), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/PinterestEnd/Page_Create your own - IFTTT/input_works with_btn btn-primary btn-lg'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/pinterest/Page_Create your own - IFTTT/textarea_Source URL_fieldslink'), 
+    'https://www.youtube.com/watch?v=VY2yxLyDDgU', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Pin/Page_Create your own - IFTTT/optional'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(15, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.doubleClick(findTestObject('Pin/Page_Create your own - IFTTT/input_visit the help page_btn btn-on-color _6a1bb4'))
+
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Pin/Page_Create your own - IFTTT/input_works with_btn btn-primary btn-lg'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 

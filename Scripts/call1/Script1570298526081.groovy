@@ -43,12 +43,12 @@ WebUI.navigateToUrl('https://ifttt.com/login?wp_=1')
 WebUI.delay(10)
 
 WebUI.setText(findTestObject('Object Repository/Page_Sign in to your IFTTT account - IFTTT/input_Sign in_userusername'), 
-    'harshab@dogfashion.org')
+    'courtney76k71crause@gmail.com\t')
 
 WebUI.delay(10)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to your IFTTT account - IFTTT/input_Sign in_userpassword'), 
-    'NWb4hwkuz3GVfPttLabpAw==')
+    'gOfOCVHPiWwqG8G8nhplyw==')
 
 WebUI.delay(10)
 

@@ -30,7 +30,7 @@ import static org.junit.Assert.*
 import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.testdata.InternalData as InternalData
 
-WebUI.click(findTestObject('Page_Create your own - IFTTT/a_This'))
+WebUI.click(findTestObject('Page_Create your own - IFTTT/span_ (1)'))
 
 WebUI.delay(5)
 
@@ -42,7 +42,9 @@ WebUI.click(findTestObject('Page_Create your own - IFTTT/img'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_Create your own - IFTTT/span_This Trigger fires every time a new item is added to the feed you specify'))
+WebUI.click(findTestObject('that/Page_Create your own - IFTTT/span_This Trigger fires every time a new it_9f4771'))
+
+WebUI.click(findTestObject('Object Repository/that/Page_Create your own - IFTTT/span_'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5)
 
